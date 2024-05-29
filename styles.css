@@ -62,7 +62,7 @@ body {
 .right-area{
     margin-left: 30px;
     top: 15px;
-    min-width: calc(100vw - 360px);
+    padding: 0 44px;
 }
 
 .right-area *{
@@ -106,7 +106,7 @@ body {
 }
 
 .one {
-    margin-left: 80px;
+    margin-left: 10px;
 }
 
 .steps123 .one,
@@ -157,7 +157,7 @@ body {
     padding: 16px;
     border: 1px solid #edeef6;
     border-radius: 12px;
-    width: 300px;
+    width: 250px;
     margin-left: 10px;
     height: 250px;
 
@@ -185,7 +185,7 @@ label {
 }
 
 .dropdown button {
-    width: 300px;
+    width: 250px;
     height: 43px;
     background-color: #f5f5fa;
     border: none;
@@ -193,7 +193,7 @@ label {
     margin-left: -45px;
     margin-bottom: 10px;
     align-items: center;
-    text-indent: -200px;
+    text-indent: -150px;
 }
 
 .dropdown svg {
