@@ -1,21 +1,26 @@
 @font-face {
     font-family: 'Satoshi';
-    src: url('fonts/Satoshi-Regular.ttf') format('truetype');
+    src: url('fonts/Satoshi-Variable.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Satoshi';
-    src: url('fonts/Satoshi-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+    src: url('fonts/Satoshi-VariableItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
 
 body {
-    background-color:#ededed;
     font-family: 'Satoshi', sans-serif;
+    background-color:#ededed;
 }
+
+.italic {
+    font-style: italic;
+}
+
 .navbar {
     display: flex;
     flex-direction: column;
