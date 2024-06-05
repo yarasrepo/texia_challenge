@@ -64,7 +64,7 @@ body {
 }
 
 .right-area{
-    width: 100vw;
+    width: calc(100% - 244px);
     padding: 44px;
 }
 
